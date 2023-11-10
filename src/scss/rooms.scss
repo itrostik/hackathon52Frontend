@@ -1,0 +1,25 @@
+.rooms {
+  display: flex;
+  max-width: 500px;
+  gap: 10px;
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    min-width: 150px;
+    height: 140px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  &__title {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,49 @@
+.commands {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+input[type='range'] {
+  width: 150px;
+}
+
+.commands__item {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  flex-direction: column;
+  border-radius: 10px;
+  flex: 1 1 40%;
+}
+
+.commands__blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.commands__block-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.commands__room {
+  font-size: 24px;
+}
+.commands__block-bottom {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.commands__btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+.commands__btn:hover {
+  background-color: rgb(232, 232, 232);
+}
+
+.commands__block-value {
+  flex: 1 1 auto;
+}
